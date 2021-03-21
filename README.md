@@ -70,6 +70,8 @@ The key's randomart image is:
 * 🇪🇸 Se generan dos archivos uno de los cuales es .pub (publico) abrelo y copia su contenido, pegalo en setting/SSH and GPG keys [GitHub](https://docs.github.com/es/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) desde el punto numero 2.
 * 🇬🇧 ssh-keygen make two files, one of both .pub (public), open it and copy the content in setting/SSH and GPG keys [GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) from point number 2.
 
+------
+
 * 🇪🇸 Creamos un archivo llamado *config* en la carpeta .ssh y agregaremos lo siguiente.
 * 🇬🇧 Make a file *config* in the same folder .ssh and add.
 ```
@@ -94,6 +96,7 @@ git clone git@github.com:jojuheper/variasCuentasGitHub.git
 
 git console ask for your passphrase in order to config file, only put passphrase where you need to clone, pay attention for this.
 ```
+------
 
 * 🇪🇸 Ahora puedes usar los comandos de GitHub y se te iran activando las contraseñas del config en orden de creacion.
 * 🇬🇧 Now you can use the basic command for GitHub and remember, the GitHub ask your password in the same order from config file.
