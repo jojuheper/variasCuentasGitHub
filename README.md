@@ -41,13 +41,13 @@ ssh-keygem.exe
 
 ----
 
-* 🇪🇸 Generara y pregunta algo como esto.
-* 🇬🇧 It will generate and ask something like this.
+* 🇪🇸 Generara y pregunta algo como esto, observar el ejemplo.
+* 🇬🇧 It will generate and ask something like this, 👓 read example.
 ```
 ~>ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/ylo/.ssh/id_rsa):          (name of file)
-Enter passphrase (empty for no passphrase):            (password, if u put it, github ask u forever), can skip this part if u want 
+Enter passphrase (empty for no passphrase):       Recomendation: putit one (password, if u put it, github ask u forever), can skip this part if u want 
 Enter same passphrase again:          put the same password again, if skip before, skip this too
 Your identification has been saved in C:/User/.ssh/id_rsa.     (remember name)
 Your public key has been saved in C:/User/.ssh/id_rsa.pub.     (remember this one is public for you)
@@ -85,9 +85,18 @@ HostName github.com
 User (your second user)
 IdentityFile ~/.ssh/id_rsa_github     (your name file for second acc)
 ```
+-----
+
+* 🇪🇸 Ahora puedes ir a tu repositorio GitHub y realiar la clonacion desde el formato SSH 👁️.
+* 🇬🇧 Visit your reposiroty and now you can clone using ssh format ⚠️.
+```
+git clone git@github.com:jojuheper/variasCuentasGitHub.git
+
+git console ask for your passphrase in order to config file, only put passphrase where you need to clone, pay attention for this.
+```
 
 * 🇪🇸 Ahora puedes usar los comandos de GitHub y se te iran activando las contraseñas del config en orden de creacion.
 * 🇬🇧 Now you can use the basic command for GitHub and remember, the GitHub ask your password in the same order from config file.
 
-**Enjoy!**
+**Enjoy!**  
 **Thank for watch**
